@@ -7,6 +7,6 @@ public interface Iconta {
 	
 	public void transferir(double valor, Conta contaDestino);
 
-	void imprimirExtrato();
+	void imprimirExtrato(TipoConta tc);
 
 }

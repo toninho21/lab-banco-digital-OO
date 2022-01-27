@@ -6,8 +6,8 @@ public class ContaCorrente extends Conta {
 	}
 
 	@Override
-	public void imprimirExtrato() {
-		System.out.println("=== Extrato Conta Corrente ===");
+	public void imprimirExtrato(TipoConta tc) {
+		System.out.println("=== Extrato Conta " + tc + "===");
 		super.imprimirInfosComuns();
 	}
 }
